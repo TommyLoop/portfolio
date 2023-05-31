@@ -1,0 +1,21 @@
+// WeatherApp styles
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    padding: 25px; 
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    text-shadow: 2px 2px rgb(21, 19, 53);
+    color: #fff;
+}
+.weather-input {
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    border: ipx solid lightgrey;
+    border-radius: 6px;
+    font-size: 16px;
+
+}

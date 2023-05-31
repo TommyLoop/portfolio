@@ -1,0 +1,51 @@
+// Strength styles
+
+.strength-background {
+    background-image: url('./images/strength-background2.jpeg');
+    background-size: cover;
+    max-height: 100%;
+    color: #fff;
+}
+.strength-h2 {
+    margin: 5rem 8rem 5rem 0;
+    background-color: rgba(247, 247, 247, 0.35);
+    font-family: $ubuntu;
+    font-size: 3.8rem;
+    color: #50C9E7;
+    text-shadow: 2px 2px rgb(21, 19, 53);
+
+}
+
+.diamond {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: #0280a4;
+    position: relative;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    
+}
+.diamond:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top-color: #0280a4;
+  
+}
+.strength-content {
+    position: relative;
+    background-color: #fff;
+    color: #0280a4;
+    top: -100px;
+    z-index: 0;
+    min-height: 400px;
+    padding-top: 4rem;
+
+}

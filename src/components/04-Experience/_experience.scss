@@ -1,0 +1,17 @@
+// Experience styles
+
+.experience-title {
+    font-size: 3.2rem;
+    color: #50C9E7;
+    text-shadow: 2px 2px rgb(21, 19, 53);
+}
+.rel {
+    position: relative;
+    z-index: 1;
+  }
+.abs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}

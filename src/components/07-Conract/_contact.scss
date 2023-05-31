@@ -1,0 +1,22 @@
+// Contact Styles
+
+.contact-background {
+    background-image: url(./images/contact-back.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.contact-border {
+    border: 2px solid #0280a4;
+    -webkit-box-shadow: 8px 7px 12px 5px rgba(0,0,0,0.6); 
+    box-shadow: 8px 7px 12px 5px rgba(0,0,0,0.6);
+}
+.email-title {
+    color: $primary-color;
+}
+@media (max-width: 992px) {
+    .email-title {
+        color: $secondary-color;
+        
+    }
+}

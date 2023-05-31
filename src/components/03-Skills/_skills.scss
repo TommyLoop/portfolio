@@ -1,0 +1,100 @@
+// Skills styles
+
+.skills-title {
+    font-size: 3.8rem;
+    color: #50C9E7;
+    text-shadow: 2px 2px rgb(21, 19, 53);
+    transform: skew(1deg);
+}
+.skills {
+   background-image: url(./images/skills.jpg);
+   background-repeat: no-repeat;
+   background-attachment: cover;
+   background-position: center bottom;
+}
+.skills-diamond1 {
+    font-size: 8rem;
+    animation: changeDiamond1 5s infinite alternate;
+ }
+ @keyframes changeDiamond1 {
+    from {
+        color: #607196;
+    }
+    to {
+        color: #aad6e2;
+        text-shadow: 0 0 20px black;   
+    }
+}
+ .skills-diamond2 {
+    font-size: 8rem;
+    animation: changeDiamond2 5s infinite alternate;
+    
+ }
+ @keyframes changeDiamond2 {
+    from {
+        color: #BABFD1;
+        text-shadow: 0 0 20px black;  
+    }
+    to {
+        color: #546A7B;
+         
+    }
+}
+ .skills-diamond3 {
+    font-size: 8rem;
+    animation: changeDiamond3 5s infinite alternate;
+    
+ }
+ @keyframes changeDiamond3 {
+    from {
+        color: #679ceb;
+    }
+    to {
+        color: #c7c9cc;
+        text-shadow: 0 0 20px black;   
+    }
+}
+ .skills-diamond4 {
+    font-size: 8rem;
+    animation: changeDiamond4 5s infinite alternate;
+ }
+ @keyframes changeDiamond4 {
+    from {
+        color: #aad6e2;
+        text-shadow: 0 0 20px black;   
+    }
+    to {
+        color: #607196;
+    }
+}
+ .webdesigner {
+    color: #607196;
+    font-weight: 600;
+    text-decoration: underline;
+ }
+.frontend {
+    color: #BABFD1;
+    font-weight: 600;
+    text-decoration: underline;
+ }
+.backend {
+    color: #80A1D4;
+    font-weight: 600;
+    text-decoration: underline;
+ }
+ @media (max-width: 1400px) {
+    .skills {
+        background-image: url(./images/skills2.jpg);
+    }
+}
+@media (max-width: 1200px) {
+    .skills {
+        background-image: url(./images/skills3.jpg);
+        background-position: left bottom;
+    }
+}
+@media (max-width: 992px) {
+    .skills {
+        background-image: none;
+    }
+}

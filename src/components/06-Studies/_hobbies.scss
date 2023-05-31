@@ -1,0 +1,15 @@
+// Hobbies styles
+
+.hobbies-h2 {
+    margin: 5rem 0 5rem 0;
+    padding-left: 14rem;
+    background-color: rgba(247, 247, 247, 0.35);
+    font-family: $ubuntu;
+    font-size: 3.8rem;
+    color: #50C9E7;
+    text-shadow: 2px 2px rgb(21, 19, 53);  
+}
+.hobbies-background {
+    background: rgb(12,158,243);
+    background: linear-gradient(90deg, rgba(12,158,243,1) 0%, rgb(192,192,192) 50%, rgba(12,158,243,1) 100%);
+}

@@ -1,0 +1,13 @@
+// Studies Styles
+
+.studies-title {
+    font-size: 3.2rem;
+    color: #50C9E7;
+    text-shadow: 2px 2px rgb(21, 19, 53);
+}
+@media (max-width: 992px) {
+    .studies-title {
+        font-size: 2.5rem;
+        
+    }
+}

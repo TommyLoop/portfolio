@@ -1,0 +1,18 @@
+npx create-react-app .
+npm uninstall react react-dom
+npm install react@17.0.2 react-dom@17.0.2
+npm uninstall  @testing-library/jest-dom @testing-library/react @testing-library/user-event
+npm i @types/react@17.0.2 @types/react-dom@17.0.11 @types/node@16.11.21 @types/jest@27.4.0
+npm audit fix --force
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/lab
+npm i yup
+npm i formik
+npm install ityped
+npm install react-image-gallery
+npm install --save react-id-swiper@latest swiper@latest
+npm install --save video-react
+npm install --save aos@next
+npm audit fix --force
+npm install bootstrap@5.2.3
+npm i react-parallax
+npm install --save sass
